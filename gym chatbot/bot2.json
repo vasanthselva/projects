@@ -1,0 +1,712 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey"
+            ],
+            "responses": [
+                "Hi there! How can I help you with your fitness goals! Can You Provide Your Age?"
+            ],
+            "context_set": ""
+
+        },
+        {
+            "tag":"my age is 6s",
+            "patterns": ["my age is 6"],
+            "responses": [
+                "Thank you for providing your age.Here are some gym tips tailored to your age, - In your 6s, take a hygienic foods."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag":"my age is 10s",
+            "patterns": ["my age is 10"],
+            "responses": [
+                "Thank you for providing your age.Here are some gym tips tailored to your age, - In your 10s, avoid deadlifts and gym equipment used workouts, do normal exercise, yoga, meditatation, take a hygienic foods."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag":"my age is 15s",
+            "patterns": ["my age is 15"],
+            "responses": [
+                "Thank you for providing your age.Here are some gym tips tailored to your age, - In your 15s, focus on building a strong foundation with compound exercises like squats, deadlifts, and bench presses.\n- Incorporate cardio for overall fitness and heart health.\n- Pay attention to your form to prevent injuries as you increase weights.\n- Prioritize recovery with adequate sleep and nutrition."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 20s",
+            "patterns": ["My age is 20s"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your 20s, focus on building a strong foundation with compound exercises like squats, deadlifts, and bench presses.\n- Incorporate cardio for overall fitness and heart health.\n- Pay attention to your form to prevent injuries as you increase weights.\n- Prioritize recovery with adequate sleep and nutrition."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 25s",
+            "patterns": ["My age is 25"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your mid-25s, continue building strength with compound exercises and progressive overload.\n- Incorporate flexibility training to maintain mobility and prevent injuries.\n- Balance workouts with cardiovascular exercises for heart health.\n- Maintain a balanced diet rich in nutrients to support muscle growth and recovery."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 30",
+            "patterns": ["My age is 30"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your 30s, maintain muscle mass with resistance training and weight-bearing exercises.\n- Include flexibility and mobility exercises to prevent joint stiffness and injuries.\n- Balance workouts with cardiovascular activities to support heart health.\n- Pay attention to recovery and consider incorporating yoga or Pilates for flexibility and stress relief."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 35",
+            "patterns": ["My age is 35"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your mid-35s, focus on maintaining strength and flexibility through a combination of resistance training and stretching.\n- Incorporate high-intensity interval training (HIIT) to boost metabolism and cardiovascular health.\n- Pay attention to joint health and modify exercises as needed to prevent injuries.\n- Prioritize rest and recovery to support overall well-being."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 40",
+            "patterns": ["My age is 40"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your 40s, prioritize strength training to combat muscle loss and maintain metabolism.\n- Incorporate high-intensity interval training (HIIT) to boost metabolism and cardiovascular health.\n- Focus on exercises that improve balance and stability to reduce the risk of falls and injuries.\n- Listen to your body and modify workouts as needed to prevent overexertion."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "My age is 50_plus",
+            "patterns": ["My age is 50_plus"],
+            "responses": [
+                "Thank you for providing your age. Here are some gym tips tailored to your age, - In your 50s and beyond, prioritize joint health with low-impact exercises like swimming, cycling, or walking.\n- Include strength training to preserve muscle mass and bone density.\n- Incorporate flexibility and mobility exercises to maintain range of motion and prevent stiffness.\n- Listen to your body and adjust workout intensity and frequency as needed."
+            ],
+            "context_set": ""
+        },
+
+
+
+    {
+      "tag": "arms_workout",
+      "patterns": ["arm workout", "exercises for arms", "workout for biceps and triceps"],
+      "responses": [
+        "Here's a line-by-line arm workout routine:",
+        "1. Bicep Curls: Grab a pair of dumbbells, stand straight with arms fully extended, and curl the weights towards your shoulders. Do 3 sets of 10 reps.",
+        "2. Tricep Dips: Sit on the edge of a bench or chair, place your hands beside your hips, and lift your body off the bench. Lower yourself until your elbows are at a 90-degree angle, then push back up. Do 3 sets of 12 reps.",
+        "3. Hammer Curls: Hold a dumbbell in each hand with palms facing each other. Curl the weights towards your shoulders, keeping your palms facing inward. Do 3 sets of 10 reps.",
+        "4. Tricep Kickbacks: Hold a dumbbell in each hand, hinge forward at the hips, and extend your arms straight back, keeping your elbows close to your body. Do 3 sets of 12 reps.",
+        "5. Overhead Tricep Extension: Hold a dumbbell with both hands overhead, palms facing upward. Lower the weight behind your head, then extend your arms upward. Do 3 sets of 10 reps.",
+        "Remember to warm up before starting your workout and cool down afterwards. Stay hydrated and listen to your body's limits."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aps_workout",
+      "patterns": [" exercises for APS", "APS  workout", "strengthening arms with APS"],
+      "responses": [
+        "Here's a line-by-line arm workout routine suitable for APS:",
+        "1. Shoulder External Rotation: Sit or stand with a resistance band secured at waist level. Hold one end of the band with your hand, keeping your elbow at a 90-degree angle. Rotate your forearm outward against the resistance. Do 3 sets of 12 reps for each arm.",
+        "2. Seated Dumbbell Shoulder Press: Sit on a bench with back support, holding dumbbells at shoulder level. Press the weights overhead, extending your arms fully. Lower them back to shoulder level. Do 3 sets of 10 reps.",
+        "3. Tricep Pulldowns with Resistance Band: Attach a resistance band to a high anchor point. Hold the band with both hands overhead, elbows bent. Extend your arms downward, keeping elbows close to your body. Do 3 sets of 12 reps.",
+        "4. Banded Bicep Curls: Stand on a resistance band with feet shoulder-width apart, holding the ends with palms facing up. Curl the band towards your shoulders, squeezing your biceps at the top. Do 3 sets of 10 reps.",
+        "5. Tricep Dips on Chair: Sit on the edge of a chair, place your hands beside your hips, and lift your body off the chair. Lower yourself until your elbows are at a 90-degree angle, then push back up. Do 3 sets of 8-10 reps with caution and control.",
+        "Remember to maintain proper form throughout the exercises, avoid any movements that exacerbate APS symptoms, and consult with a healthcare professional before starting any new exercise routine."
+      ],
+      "context_set": "aps_arms_workout"
+    },
+
+
+    {
+      "tag": "shoulder_workout",
+      "patterns": ["shoulder exercises", "shoulder workout", "exercises for shoulders"],
+      "responses": [
+        "Here's a shoulder workout routine:",
+        "Seated Dumbbell Shoulder Press: Sit on a bench with back support, holding dumbbells at shoulder level. Press the weights overhead, extending your arms fully. Lower them back to shoulder level.",
+        "Lateral Raises: Stand with feet shoulder-width apart, holding dumbbells at your sides. Raise your arms to the sides until they're parallel to the floor. Lower them back down.",
+        "Front Raises: Stand with feet shoulder-width apart, holding dumbbells in front of your thighs. Raise your arms in front of you until they're parallel to the floor. Lower them back down."
+
+      ],
+      "context_set": ""
+    },
+    {
+  "tag": "workout_nutrition",
+  "patterns": ["nutrition for workout", "pre workout fruits", "post workout fruits"],
+  "responses": [
+    "Here are some fruits that are great for pre or post-workout nutrition:",
+    "1. Banana: Provides carbohydrates for energy and potassium for muscle function.",
+    "2. Apple: Contains natural sugars for quick energy and antioxidants for recovery.",
+    "3. Berries (e.g., strawberries, blueberries, raspberries): Rich in antioxidants, vitamins, and fiber to support recovery.",
+    "4. Pineapple: Contains bromelain, an enzyme that may help reduce inflammation.",
+    "5. Watermelon: High water content helps with hydration, and contains citrulline, which may improve exercise performance.",
+    "6. Oranges: Rich in vitamin C for immune support and potassium for electrolyte balance.",
+    "Remember to consume fruits as part of a balanced diet and adjust portion sizes based on your individual nutritional needs and workout intensity."
+  ],
+  "context_set": ""
+},
+
+    {
+      "tag": "workout_nutrition",
+      "patterns": ["nutrition for workout", "pre workout vegetables", "post workout vegetables"],
+      "responses": [
+        "Here are some vegetables that are great for pre or post-workout nutrition:",
+        "1. Sweet Potatoes: Rich in carbohydrates for sustained energy and potassium for muscle function.",
+        "2. Spinach: High in iron and antioxidants to support energy production and recovery.",
+        "3. Bell Peppers: Provide vitamin C for immune support and hydration.",
+        "4. Broccoli: Contains vitamins, minerals, and fiber for overall health and recovery.",
+        "5. Carrots: Rich in beta-carotene and fiber, great for pre or post-workout snacking.",
+        "6. Cucumber: High water content helps with hydration, and contains vitamins and minerals for recovery.",
+        "Remember to include a variety of vegetables in your diet to ensure you get a wide range of nutrients and benefits for your workouts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "masturbation workout disadvantages",
+      "patterns": [
+        "Is male masturbation a good gym workout?",
+        "Does masturbation count as exercise?",
+        "Can masturbation replace gym workouts?"
+      ],
+      "responses": [
+        "Male masturbation is not considered a substitute for a proper gym workout.",
+        "While masturbation may provide some brief physical activity, it does not offer the same benefits as a structured gym workout.",
+        "Regular exercise, including strength training, cardio, and flexibility exercises, is essential for overall health and fitness.",
+        "It's important to engage in balanced and varied exercise routines to achieve fitness goals and maintain overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "spa_benefits",
+      "patterns": [
+        "Benefits of spa treatments",
+        "How does spa promote inner calm?",
+        "Are spa treatments good for body fitness?"
+      ],
+      "responses": [
+        "Spa treatments can provide various benefits for both inner calm and body fitness:",
+        "1. Stress Reduction: Spa treatments such as massages, aromatherapy, and hydrotherapy can help reduce stress levels and promote relaxation, leading to inner calm.",
+        "2. Muscle Relaxation: Massages and heat therapies offered at spas can help relax muscles, alleviate tension, and improve flexibility, which can contribute to better body fitness.",
+        "3. Improved Circulation: Many spa treatments, such as hydrotherapy and sauna sessions, can enhance blood circulation, delivering oxygen and nutrients to the muscles and promoting overall health.",
+        "4. Detoxification: Certain spa treatments, like body wraps and detox massages, may aid in detoxifying the body, removing toxins and promoting a sense of rejuvenation.",
+        "5. Mental Well-being: Spa environments often provide a peaceful atmosphere and opportunities for mindfulness, contributing to mental well-being and inner balance.",
+        "Overall, incorporating spa treatments into your wellness routine can help you achieve both physical and mental health goals."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "workouts_for_elderly",
+      "patterns": [
+        "Workouts for 70 year old men",
+        "Exercise routines for seniors",
+        "Fitness for elderly men"
+      ],
+      "responses": [
+        "Absolutely! Exercise is important for individuals of all ages, including 70-year-old men.",
+        "Here are some workout options suitable for 70-year-old men:",
+        "1. Low-Impact Cardio: Activities like walking, swimming, or cycling are gentle on the joints and improve cardiovascular health.",
+        "2. Strength Training: Using resistance bands or light weights can help maintain muscle mass and bone density.",
+        "3. Flexibility Exercises: Incorporating stretches and yoga poses can improve flexibility and reduce the risk of injury.",
+        "4. Balance Exercises: Tai chi or simple balance exercises can help prevent falls and improve stability.",
+        "5. Bodyweight Exercises: Squats, lunges, and modified push-ups can help maintain strength and mobility.",
+        "It's essential for older adults to consult with a healthcare professional before starting any new exercise regimen and to listen to their bodies, adjusting intensity and frequency as needed."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "gym_workouts_for_elderly",
+      "patterns": [
+        "Gym workouts for 70 year old men",
+        "gym Strength training for seniors",
+        "gym Fitness for elderly men"
+      ],
+      "responses": [
+        "Certainly! Many 70 year-old men can benefit from gym workouts, but it's important to approach them with caution and consideration for individual capabilities and health conditions.",
+        "Here are some gym workout options suitable for 70 year old men:",
+        "1. Light Resistance Training: Using resistance machines or light dumbbells can help maintain muscle mass and strength without putting too much strain on the joints.",
+        "2. Cardio Machines: Low-impact cardio machines like stationary bikes, ellipticals, or treadmills can improve cardiovascular health without risking injury.",
+        "3. Functional Training: Incorporating exercises that mimic everyday movements, such as squats, lunges, and step-ups, can improve balance, mobility, and overall functional fitness.",
+        "4. Core Strengthening: Exercises targeting the core muscles, such as planks, bridges, and abdominal crunches, can help improve stability and prevent falls.",
+        "5. Flexibility Work: Including stretches and mobility exercises in the workout routine can help maintain flexibility and joint health.",
+        "It's crucial for older adults to start slowly, gradually increase intensity, and listen to their bodies. Consulting with a fitness professional or personal trainer experienced in working with seniors can also be beneficial."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pregnancy_workouts",
+      "patterns": [
+        "Workouts for pregnant women",
+        "Exercise during pregnancy",
+        "Fitness routines for expectant mothers"
+      ],
+      "responses": [
+        "Yes, many pregnant women can safely exercise during pregnancy, but it's important to consult with a healthcare provider before starting or continuing any exercise program.",
+        "Here are some workout options suitable for pregnant women:",
+        "1. Walking: A low-impact aerobic exercise that can be done at any stage of pregnancy, promoting cardiovascular health and easing discomfort.",
+        "2. Prenatal Yoga: Gentle yoga poses and breathing techniques can help improve flexibility, strength, and relaxation.",
+        "3. Swimming: Provides a full-body workout while minimizing stress on the joints, making it an excellent option for pregnant women.",
+        "4. Strength Training: Using light weights or resistance bands under the guidance of a qualified instructor can help maintain muscle tone and prepare for labor.",
+        "5. Pelvic Floor Exercises: Kegels and other pelvic floor exercises can help strengthen the pelvic muscles, reducing the risk of urinary incontinence and supporting the birthing process.",
+        "It's important to listen to your body, avoid exercises that cause discomfort or strain, stay hydrated, and stop exercising if you experience any unusual symptoms. Additionally, certain high-risk pregnancies may require modifications or restrictions to exercise routines."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "pregnancy_gym_workouts",
+      "patterns": [
+        "Can pregnant women do gym workouts?",
+        "Are gym workouts safe during pregnancy?",
+        "Should pregnant women avoid gym exercises?"
+      ],
+      "responses": [
+        "It's important for pregnant women to prioritize their health and safety during exercise, and gym workouts can be done with certain considerations and modifications.",
+        "However, there are some factors to consider when it comes to gym workouts during pregnancy:",
+        "1. Consultation: It's crucial for pregnant women to consult with their healthcare provider before starting or continuing any exercise program, including gym workouts.",
+        "2. Low-Impact Exercises: Pregnant women should focus on low-impact exercises that are gentle on the joints and minimize the risk of injury or strain.",
+        "3. Avoiding Certain Activities: Some gym exercises, such as heavy weightlifting, contact sports, and exercises that involve lying flat on the back after the first trimester, should be avoided or modified.",
+        "4. Monitoring Intensity: Pregnant women should monitor their heart rate and exertion level during workouts, ensuring they can maintain a conversation without becoming breathless.",
+        "5. Listen to Your Body: It's essential to listen to the body's signals and stop any activity that feels uncomfortable, painful, or causes dizziness or shortness of breath.",
+        "Ultimately, the safety and well-being of both the mother and the baby should be the top priority, and pregnant women should modify their gym workouts as necessary to accommodate their changing bodies and needs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "non_veg_fitness",
+      "patterns": [
+        "Non-vegetarian foods for gym workout",
+        "Meat for fitness",
+        "Protein sources for general fitness"
+      ],
+      "responses": [
+        "Non-vegetarian foods can be excellent sources of protein and other nutrients for both gym workout and general fitness.",
+        "Here are some non-vegetarian options that can support your fitness goals:",
+        "1. Chicken Breast: Lean and versatile, chicken breast is a staple protein source for many fitness enthusiasts.",
+        "2. Turkey: Another lean protein option, turkey is rich in nutrients like iron, zinc, and B vitamins.",
+        "3. Fish: Fatty fish like salmon, tuna, and mackerel are great sources of omega-3 fatty acids, which can support heart health and muscle recovery.",
+        "4. Lean Beef: Beef provides protein, iron, and zinc, making it a good choice for muscle building and overall health.",
+        "5. Eggs: A complete protein source, eggs also contain essential vitamins and minerals, including vitamin D and choline.",
+        "6. Dairy: Products like Greek yogurt, cottage cheese, and whey protein are rich in protein and can support muscle growth and recovery.",
+        "Incorporating a variety of these non-vegetarian foods into your diet can help meet your protein needs and support your fitness goals."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wrestling_evaluation",
+      "patterns": [
+        "Is wrestling good or bad?",
+        "Advantages and disadvantages of wrestling",
+        "Risks of wrestling"
+      ],
+      "responses": [
+        "Wrestling, like any sport, has both advantages and disadvantages, as well as associated risks.",
+        "Advantages of wrestling:",
+        "1. Physical Fitness: Wrestling promotes strength, agility, endurance, and flexibility.",
+        "2. Mental Toughness: Wrestlers develop discipline, focus, and resilience through rigorous training and competition.",
+        "3. Character Development: Wrestling fosters qualities such as sportsmanship, teamwork, and perseverance.",
+        "Disadvantages of wrestling:",
+        "1. Risk of Injury: Wrestling carries a risk of various injuries, including sprains, strains, fractures, and concussions.",
+        "2. Weight Management: Wrestlers may engage in unhealthy weight-cutting practices to meet weight class requirements, leading to nutritional imbalances and eating disorders.",
+        "3. Time Commitment: Wrestling requires significant time and dedication for training, competitions, and travel.",
+        "Risks of wrestling:",
+        "1. Injuries: Wrestlers are susceptible to acute injuries from falls, takedowns, and submissions, as well as overuse injuries from repetitive movements.",
+        "2. Weight-Related Issues: Rapid weight loss and extreme weight-cutting methods can have long-term health consequences and affect growth and development in younger athletes.",
+        "3. Skin Infections: Close contact and shared equipment in wrestling increase the risk of skin infections such as ringworm and impetigo.",
+        "Ultimately, whether wrestling is considered good or bad depends on individual circumstances, including the level of supervision, coaching, and safety measures in place."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "handball_info",
+      "patterns": [
+        "Handball sports information",
+        "Rules of handball",
+        "How to play handball",
+        "Fitness benefits of handball"
+      ],
+      "responses": [
+        "Handball is a dynamic and exciting team sport that offers numerous benefits for players' physical fitness and overall well-being.",
+        "Rules of handball:",
+        "1. Objective: The objective of handball is to score goals by throwing the ball into the opposing team's goal while preventing them from scoring.",
+        "2. Teams: Each team consists of seven players, including one goalkeeper.",
+        "3. Playing Field: Handball is played on a rectangular court with goals at each end.",
+        "4. Movement: Players can move the ball by passing, dribbling, or shooting it into the goal.",
+        "5. Duration: Matches typically consist of two halves, each lasting 30 minutes.",
+        "How to play handball:",
+        "1. Passing: Players can pass the ball to teammates using their hands, but they must not hold the ball for more than three seconds or take more than three steps while holding it.",
+        "2. Shooting: To score a goal, players can shoot the ball into the opposing team's goal from a distance or close range.",
+        "3. Defense: Defenders try to intercept passes, block shots, and prevent opposing players from scoring.",
+        "Fitness benefits of handball:",
+        "1. Cardiovascular Fitness: Handball is a high-intensity sport that improves cardiovascular endurance through constant movement and sprinting.",
+        "2. Strength and Power: Players develop strength and power in the legs, arms, and core muscles through activities such as shooting, passing, and defending.",
+        "3. Agility and Coordination: Handball requires quick movements, changes of direction, and hand-eye coordination, enhancing agility and coordination.",
+        "4. Teamwork and Communication: Handball fosters teamwork, cooperation, and communication skills as players work together to achieve common goals.",
+        "Overall, handball is an excellent sport for improving fitness levels, developing athletic skills, and enjoying the camaraderie of team competition."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "general_fitness",
+      "patterns": [
+        "Gym workouts",
+        "Fitness tips",
+        "Healthcare advice",
+        "Exercises for men",
+        "Exercises for women",
+        "Avoiding exercises for medical conditions",
+        "Best time to workout",
+        "How to warm up before exercising",
+        "Cool-down exercises after a workout",
+        "Benefits of stretching",
+        "How to improve flexibility",
+        "Cardio vs. strength training",
+        "How to set fitness goals",
+        "Motivation tips for exercising regularly",
+        "Incorporating fitness into a busy schedule",
+        "How to prevent workout injuries",
+        "Dealing with workout plateaus",
+        "Nutrition tips for pre and post-workout meals",
+        "Supplements for fitness and muscle growth",
+        "Role of hydration in fitness",
+        "Measuring progress and tracking fitness goals",
+        "Exercises for improving posture",
+        "The importance of rest and recovery days",
+        "Exercise options for seniors",
+        "Fitness activities for children",
+        "Exercises for relieving stress and anxiety",
+        "Fitness routines during pregnancy",
+        "Benefits of hiring a personal trainer",
+        "Workout equipment for home gyms",
+        "Incorporating outdoor activities into fitness routines",
+        "Benefits of group fitness classes",
+        "Role of sleep in fitness and recovery"
+      ],
+      "responses": [
+        "Welcome to our fitness center! Here are some general guidelines and advice for your fitness journey:",
+        "Gym workouts: Our gym offers a variety of equipment and exercises tailored to different fitness levels and goals. Whether you're looking to build strength, improve cardiovascular health, or increase flexibility, our experienced trainers can help you create a personalized workout plan.",
+        "Fitness tips: Consistency is key to achieving your fitness goals. Make exercise a regular part of your routine, prioritize proper nutrition and hydration, get enough sleep, and listen to your body to avoid overtraining or injury.",
+        "Healthcare advice: Before starting any new exercise program, especially if you have pre-existing medical conditions or concerns, it's important to consult with a healthcare provider. They can provide personalized guidance and recommendations based on your individual health status and fitness goals.",
+        "Exercises for men/women: Our gym offers a wide range of exercises suitable for both men and women, including strength training, cardio workouts, flexibility exercises, and more. Our trainers can help you choose exercises that align with your fitness goals and preferences.",
+        "Avoiding exercises for medical conditions: If you have specific medical conditions or injuries, certain exercises may need to be modified or avoided altogether to prevent exacerbating symptoms or causing further injury. Our trainers can provide guidance on safe and appropriate exercises for your individual needs.",
+        "Best time to workout: The best time to work out is whenever it fits into your schedule and when you feel most energized and motivated. Some people prefer morning workouts to start the day off on a positive note, while others prefer evening workouts to unwind and relieve stress after a long day.",
+        "How to warm up before exercising: Warming up before exercise helps prepare your body for physical activity by increasing blood flow to the muscles, raising your heart rate, and improving flexibility. A good warm-up may include dynamic stretches, light cardio exercises, and mobility drills targeting the major muscle groups.",
+        "Cool-down exercises after a workout: Cooling down after a workout helps gradually lower your heart rate, prevent muscle stiffness, and promote recovery. Incorporating static stretches, foam rolling, and gentle movements can help relax the muscles and reduce post-exercise soreness.",
+        "Benefits of stretching: Stretching improves flexibility, increases range of motion, and reduces the risk of injury during exercise. It can also help alleviate muscle tension, improve posture, and promote relaxation and stress relief.",
+        "How to improve flexibility: Regular stretching exercises, such as dynamic stretching, static stretching, and proprioceptive neuromuscular facilitation (PNF) stretching, can help improve flexibility over time. It's important to stretch consistently and gradually increase intensity to avoid overstretching or injury.",
+        "Cardio vs. strength training: Both cardio and strength training are important components of a well-rounded fitness routine. Cardio exercises, such as running, cycling, and swimming, improve cardiovascular health and endurance, while strength training exercises, such as weightlifting and bodyweight exercises, build muscle strength and tone.",
+        "How to set fitness goals: Setting SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) can help you stay focused and motivated on your fitness journey. Start by identifying specific goals that align with your values and priorities, then break them down into smaller, actionable steps that you can track and measure over time.",
+        "Motivation tips for exercising regularly: Find activities you enjoy, set realistic goals, establish a consistent routine, enlist support from friends or family, track your progress, reward yourself for milestones, and stay positive and resilient in the face of setbacks or challenges.",
+        "Incorporating fitness into a busy schedule: Prioritize exercise by scheduling it into your daily routine, breaking it up into shorter sessions if needed, multitasking by combining exercise with other activities, and eliminating time-wasting activities to make room for fitness.",
+        "How to prevent workout injuries: Warm up properly, use proper form and technique, gradually increase intensity and duration, listen to your body, wear appropriate footwear and protective gear, incorporate rest and recovery days, and seek guidance from qualified professionals when needed.",
+        "Dealing with workout plateaus: Plateaus are common in fitness journeys and can be overcome by changing up your routine, increasing intensity or duration, setting new goals, trying new activities or exercises, incorporating cross-training, and staying patient and persistent.",
+        "Nutrition tips for pre and post-workout meals: Fuel your workouts with balanced meals containing carbohydrates for energy, protein for muscle repair and growth, and healthy fats for sustained energy. Aim to eat a pre-workout meal 1-2 hours before exercise and a post-workout meal within 30 minutes to 2 hours after exercise.",
+        "Supplements for fitness and muscle growth: While supplements can complement a healthy diet and fitness routine, they should not replace whole foods. Popular supplements for fitness and muscle growth include protein powder, creatine, branched-chain amino acids (BCAAs), and caffeine. Consult with a healthcare provider before starting any new supplements.",
+        "Role of hydration in fitness: Proper hydration is essential for performance, recovery, and overall health. Drink water before, during, and after workouts to prevent dehydration, maintain electrolyte balance, regulate body temperature, and support nutrient transport and waste removal.",
+        "Measuring progress and tracking fitness goals: Keep track of your workouts, measurements, body weight, body composition, and performance metrics over time to monitor progress, identify trends, and adjust your approach as needed to stay on track toward your fitness goals.",
+        "Exercises for improving posture: Strengthening exercises targeting the core, back, and shoulder muscles, as well as stretching exercises to improve flexibility and mobility, can help correct poor posture and alleviate associated discomfort.",
+        "The importance of rest and recovery days: Rest and recovery are essential for muscle repair, growth, and adaptation following exercise. Adequate sleep, nutrition, hydration, and active recovery techniques can help optimize recovery and prevent overtraining and burnout.",
+        "Exercise options for seniors: Low-impact activities such as walking, swimming, cycling, tai chi, and gentle yoga are excellent options for seniors to improve cardiovascular health, strength, flexibility, and balance while minimizing the risk of injury.",
+        "Fitness activities for children: Children should engage in age-appropriate activities that promote physical fitness, motor skills, coordination, and social development. Examples include running, jumping, climbing, playing sports, dancing, and participating in recreational games and activities.",
+        "Exercises for relieving stress and anxiety: Physical activity, such as aerobic exercise, yoga, Pilates, and meditation, can help reduce stress and anxiety by promoting the release of endorphins, improving mood, and providing a distraction from negative thoughts and feelings.",
+        "Fitness routines during pregnancy: Pregnant women should consult with a healthcare provider before starting or continuing any exercise program during pregnancy. Low-impact activities such as walking, swimming, prenatal yoga, and modified strength training exercises can help maintain fitness and support overall health during pregnancy.",
+        "Benefits of hiring a personal trainer: A qualified personal trainer can provide personalized guidance, motivation, accountability, and support to help you achieve your fitness goals safely and efficiently. They can also design customized workout programs, monitor your progress, and adjust your routine as needed.",
+        "Workout equipment for home gyms: Home gyms can be equipped with a variety of fitness equipment, including dumbbells, kettlebells, resistance bands, stability balls, yoga mats, cardio machines, and strength training machines, depending on your space, budget, and fitness goals.",
+        "Incorporating outdoor activities into fitness routines: Outdoor activities such as hiking, cycling, running, swimming, kayaking, and outdoor sports provide opportunities to enjoy nature, fresh air, and sunlight while improving fitness and overall well-being.",
+        "Benefits of group fitness classes: Group fitness classes offer social support, motivation, accountability, and camaraderie, as well as structured workouts led by certified instructors. They provide variety, fun, and a sense of community, making exercise more enjoyable and sustainable.",
+        "Role of sleep in fitness and recovery: Adequate sleep is essential for physical and mental health, including muscle recovery, hormone regulation, immune function, cognitive performance, and mood regulation. Aim for 7-9 hours of quality sleep per night to support your fitness goals and overall well-being."
+      ],
+"context_set": ""
+    },
+    {
+      "tag": "no_equipment_traps_workouts",
+      "patterns": [
+        "No-equipment workouts for traps",
+        "Exercises to strengthen traps without equipment",
+        "How to tone traps at home without weights",
+        "Traps workouts for beginners without equipment",
+        "Rules for no-equipment traps workouts",
+        "How many sets and reps for traps exercises",
+        "Best traps exercises without weights"
+      ],
+      "responses": [
+        "No-equipment workouts for traps can include exercises such as shrugs, scapular push-ups, and prone cobra. These exercises target the trapezius muscles to help strengthen and tone the traps.",
+        "To tone traps at home without weights, focus on bodyweight exercises that engage the muscles of the upper back and shoulders. Incorporate a variety of exercises like shrugs, scapular push-ups, and prone cobra to challenge the traps from different angles and ranges of motion.",
+        "Traps workouts for beginners without equipment should start with basic exercises like shrugs and scapular push-ups. Begin with a few sets of each exercise, focusing on proper form and technique. Gradually increase the number of sets and reps as you progress.",
+        "Rules for no-equipment traps workouts include warming up before exercising, using proper form and technique, performing a variety of exercises to target different muscle groups, and listening to your body to avoid overexertion or injury.",
+        "For no-equipment traps workouts, aim to perform 2-3 sets of each exercise, with 12-15 repetitions per set. Adjust the number of sets and reps based on your fitness level and goals, but prioritize maintaining proper form and technique throughout each exercise.",
+        "Some of the best traps exercises without weights include shrugs, scapular push-ups, and prone cobra. These exercises effectively target the trapezius muscles to help strengthen and tone the traps."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "no_equipment_glutes_workouts",
+      "patterns": [
+        "No-equipment workouts for glutes",
+        "Exercises to strengthen glutes without equipment",
+        "How to tone glutes at home without weights",
+        "Glutes workouts for beginners without equipment",
+        "Rules for no-equipment glutes workouts",
+        "How many sets and reps for glutes exercises",
+        "Best glutes exercises without weights"
+      ],
+      "responses": [
+        "No-equipment workouts for glutes can include exercises such as squats, lunges, glute bridges, and donkey kicks. These exercises target the gluteus maximus, medius, and minimus muscles to help strengthen and tone the glutes.",
+        "To tone glutes at home without weights, focus on bodyweight exercises that engage the muscles of the buttocks and hips. Incorporate a variety of exercises like squats, lunges, glute bridges, and donkey kicks to challenge the glutes from different angles and ranges of motion.",
+        "Glutes workouts for beginners without equipment should start with basic exercises like squats, lunges, and glute bridges. Begin with a few sets of each exercise, focusing on proper form and technique. Gradually increase the number of sets and reps as you progress.",
+        "Rules for no-equipment glutes workouts include warming up before exercising, using proper form and technique, performing a variety of exercises to target different muscle groups, and listening to your body to avoid overexertion or injury.",
+        "For no-equipment glutes workouts, aim to perform 2-3 sets of each exercise, with 10-15 repetitions per set. Adjust the number of sets and reps based on your fitness level and goals, but prioritize maintaining proper form and technique throughout each exercise.",
+        "Some of the best glutes exercises without weights include squats, lunges, glute bridges, and donkey kicks. These exercises effectively target the glute muscles to help strengthen and tone the buttocks and hips."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "no_equipment_hamstrings_workouts",
+      "patterns": [
+        "No-equipment workouts for hamstrings",
+        "Exercises to strengthen hamstrings without equipment",
+        "How to tone hamstrings at home without weights",
+        "Hamstrings workouts for beginners without equipment",
+        "Rules for no-equipment hamstrings workouts",
+        "How many sets and reps for hamstrings exercises",
+        "Best hamstrings exercises without weights"
+      ],
+      "responses": [
+        "No-equipment workouts for hamstrings can include exercises such as hamstring curls, single-leg deadlifts, glute bridges, and reverse lunges. These exercises target the hamstrings and glutes to help strengthen and tone the back of the thighs.",
+        "To tone hamstrings at home without weights, focus on bodyweight exercises that engage the muscles of the posterior chain. Incorporate a variety of exercises like hamstring curls, single-leg deadlifts, glute bridges, and reverse lunges to challenge the hamstrings from different angles and ranges of motion.",
+        "Hamstrings workouts for beginners without equipment should start with basic exercises like glute bridges and reverse lunges. Begin with a few sets of each exercise, focusing on proper form and technique. Gradually increase the number of sets and reps as you progress.",
+        "Rules for no-equipment hamstrings workouts include warming up before exercising, using proper form and technique, performing a variety of exercises to target different muscle groups, and listening to your body to avoid overexertion or injury.",
+        "For no-equipment hamstrings workouts, aim to perform 2-3 sets of each exercise, with 10-15 repetitions per set. Adjust the number of sets and reps based on your fitness level and goals, but prioritize maintaining proper form and technique throughout each exercise.",
+        "Some of the best hamstrings exercises without weights include hamstring curls, single-leg deadlifts, glute bridges, and reverse lunges. These exercises effectively target the hamstrings and glutes to help strengthen and tone the back of the thighs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "no_equipment_lats_workouts",
+      "patterns": [
+        "No-equipment workouts for lats",
+        "Exercises to strengthen lats without equipment",
+        "How to tone lats at home without weights",
+        "Lats workouts for beginners without equipment",
+        "Rules for no-equipment lats workouts",
+        "How many sets and reps for lats exercises",
+        "Best lats exercises without weights"
+      ],
+      "responses": [
+        "No-equipment workouts for lats can include exercises such as pull-ups, inverted rows, and superman lifts. These exercises target the latissimus dorsi muscles to help strengthen and tone the back.",
+        "To tone lats at home without weights, focus on bodyweight exercises that engage the muscles of the back and shoulders. Incorporate a variety of exercises like pull-ups, inverted rows, and superman lifts to challenge the lats from different angles and ranges of motion.",
+        "Lats workouts for beginners without equipment should start with basic exercises like inverted rows and superman lifts. Begin with a few sets of each exercise, focusing on proper form and technique. Gradually increase the number of sets and reps as you progress.",
+        "Rules for no-equipment lats workouts include warming up before exercising, using proper form and technique, performing a variety of exercises to target different muscle groups, and listening to your body to avoid overexertion or injury.",
+        "For no-equipment lats workouts, aim to perform 2-3 sets of each exercise, with 8-12 repetitions per set. Adjust the number of sets and reps based on your fitness level and goals, but prioritize maintaining proper form and technique throughout each exercise.",
+        "Some of the best lats exercises without weights include pull-ups, inverted rows, and superman lifts. These exercises effectively target the latissimus dorsi muscles to help strengthen and tone the back."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "no_equipment_quads_workouts",
+      "patterns": [
+        "No-equipment workouts for quads",
+        "Exercises to strengthen quads without equipment",
+        "How to tone quads at home without weights",
+        "Quads workouts for beginners without equipment",
+        "Rules for no-equipment quads workouts",
+        "How many sets and reps for quads exercises",
+        "Best quads exercises without weights"
+      ],
+      "responses": [
+        "No-equipment workouts for quads can include exercises such as bodyweight squats, lunges, and jumping squats. These exercises target the quadriceps muscles to help strengthen and tone the front of the thighs.",
+        "To tone quads at home without weights, focus on bodyweight exercises that engage the muscles of the front of the thighs. Incorporate a variety of exercises like bodyweight squats, lunges, and jumping squats to challenge the quads from different angles and ranges of motion.",
+        "Quads workouts for beginners without equipment should start with basic exercises like bodyweight squats and lunges. Begin with a few sets of each exercise, focusing on proper form and technique. Gradually increase the number of sets and reps as you progress.",
+        "Rules for no-equipment quads workouts include warming up before exercising, using proper form and technique, performing a variety of exercises to target different muscle groups, and listening to your body to avoid overexertion or injury.",
+        "For no-equipment quads workouts, aim to perform 2-3 sets of each exercise, with 10-15 repetitions per set. Adjust the number of sets and reps based on your fitness level and goals, but prioritize maintaining proper form and technique throughout each exercise.",
+        "Some of the best quads exercises without weights include bodyweight squats, lunges, and jumping squats. These exercises effectively target the quadriceps muscles to help strengthen and tone the front of the thighs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_loss_workouts",
+      "patterns": [
+        "Effective workouts for weight loss",
+        "Best exercises to lose weight",
+        "How to burn calories through workouts",
+        "Cardio workouts for weight loss",
+        "Strength training for weight loss",
+        "HIIT workouts for fat loss",
+        "Workout routines for beginners to lose weight"
+      ],
+      "responses": [
+        "Effective workouts for weight loss include a combination of cardio and strength training exercises. Cardio workouts such as running, cycling, swimming, and jumping rope help burn calories, while strength training exercises like squats, lunges, push-ups, and dumbbell exercises build lean muscle mass and increase metabolism.",
+        "The best exercises to lose weight are those that elevate heart rate and burn calories efficiently. Examples include running, brisk walking, cycling, swimming, jumping rope, HIIT (high-intensity interval training), circuit training, and cardio dance workouts.",
+        "To burn calories through workouts, aim for activities that raise your heart rate and keep it elevated for an extended period. Choose exercises you enjoy and can sustain, such as brisk walking, jogging, cycling, swimming, or group fitness classes like Zumba or spinning.",
+        "Cardio workouts are effective for weight loss because they increase heart rate and calorie expenditure. Examples of cardio exercises include running, cycling, swimming, jump rope, dancing, and aerobic workouts like step aerobics or kickboxing.",
+        "Strength training is important for weight loss because it helps build lean muscle mass, which increases metabolism and calorie burn even at rest. Include exercises like squats, lunges, push-ups, rows, and weightlifting in your routine to maximize fat loss.",
+        "HIIT (high-intensity interval training) workouts are great for fat loss because they involve short bursts of intense exercise followed by brief rest periods, maximizing calorie burn and boosting metabolism. Examples include HIIT circuits, Tabata workouts, and interval runs.",
+        "Workout routines for beginners to lose weight should focus on building a foundation of fitness with a combination of cardio and strength training exercises. Start with low-impact activities like walking or swimming and gradually incorporate strength exercises using body weight or light weights."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_loss_diet",
+      "patterns": [
+        "Healthy diet for weight loss",
+        "Foods to eat to lose weight",
+        "Low-calorie foods for weight loss",
+        "High-protein diet for weight loss",
+        "Low-carb diet for weight loss",
+        "Meal planning for weight loss",
+        "Tips for controlling portions while dieting"
+      ],
+      "responses": [
+        "A healthy diet for weight loss includes plenty of fruits, vegetables, lean proteins, whole grains, and healthy fats. Focus on portion control, limit processed foods and added sugars, and drink plenty of water throughout the day.",
+        "Foods to eat to lose weight include lean proteins like chicken, fish, tofu, and legumes; fruits and vegetables; whole grains like brown rice, quinoa, and oats; healthy fats like avocados, nuts, and olive oil; and low-fat dairy products.",
+        "Low-calorie foods for weight loss include leafy greens, non-starchy vegetables, fruits, lean proteins like chicken breast and fish, whole grains, and legumes. These foods are nutrient-dense and filling, making them ideal choices for weight loss.",
+        "A high-protein diet is beneficial for weight loss because it helps promote satiety, preserve lean muscle mass, and increase metabolism. Include protein-rich foods like chicken, turkey, fish, eggs, tofu, Greek yogurt, and legumes in your meals and snacks.",
+        "A low-carb diet can be effective for weight loss by reducing insulin levels and promoting fat burning. Focus on whole, unprocessed foods like vegetables, fruits, lean proteins, nuts, seeds, and healthy fats while limiting refined carbs like white bread, pasta, and sugary snacks.",
+        "Meal planning is essential for weight loss success. Plan balanced meals and snacks that include a variety of foods from all food groups, aim for appropriate portion sizes, and prepare meals ahead of time to avoid unhealthy choices when hungry.",
+        "Tips for controlling portions while dieting include using smaller plates and bowls, measuring serving sizes with measuring cups or a food scale, dividing meals in half and saving the rest for later, and paying attention to hunger and fullness cues to avoid overeating."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_gain_workouts",
+      "patterns": [
+        "Effective workouts for weight gain",
+        "Best exercises to gain weight",
+        "How to build muscle through workouts",
+        "Strength training for weight gain",
+        "Muscle-building workouts",
+        "Workout routines for beginners to gain weight"
+      ],
+      "responses": [
+        "Effective workouts for weight gain focus on compound exercises that target multiple muscle groups, such as squats, deadlifts, bench presses, pull-ups, and rows. Incorporate progressive overload by gradually increasing weight and intensity to stimulate muscle growth.",
+        "The best exercises to gain weight are compound movements that recruit multiple muscle groups and allow you to lift heavier weights. Examples include squats, deadlifts, bench presses, overhead presses, pull-ups, rows, and dips.",
+        "To build muscle through workouts, prioritize strength training exercises that challenge your muscles and stimulate growth. Aim for progressive overload by gradually increasing weight, reps, or sets to continually challenge your muscles.",
+        "Strength training is essential for weight gain as it helps stimulate muscle growth and development. Focus on compound exercises like squats, deadlifts, bench presses, and rows, and aim to progressively increase the weight you lift over time.",
+        "Muscle-building workouts involve strength training exercises that target major muscle groups to stimulate hypertrophy and muscle growth. Include compound movements like squats, deadlifts, bench presses, and rows, along with isolation exercises to target specific muscles.",
+        "Workout routines for beginners to gain weight should focus on full-body workouts that include compound exercises targeting major muscle groups. Start with lighter weights and gradually increase resistance as you progress to build strength and muscle mass."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_gain_diet",
+      "patterns": [
+        "Healthy diet for weight gain",
+        "Foods to eat to gain weight",
+        "High-calorie foods for weight gain",
+        "High-protein diet for muscle gain",
+        "Meal planning for weight gain",
+        "Tips for increasing calorie intake"
+      ],
+      "responses": [
+        "A healthy diet for weight gain includes a balance of macronutrients and micronutrients from whole, nutrient-dense foods. Focus on calorie-dense foods like nuts, seeds, nut butters, avocados, whole milk, cheese, lean meats, and healthy fats.",
+        "Foods to eat to gain weight include calorie-dense options like nuts, seeds, nut butters, avocados, whole milk, cheese, yogurt, lean meats, fatty fish, whole grains, and dried fruits. Incorporate protein-rich foods to support muscle growth and repair.",
+        "High-calorie foods for weight gain include nuts, seeds, nut butters, avocados, whole milk, cheese, yogurt, fatty fish, lean meats, whole grains, dried fruits, and healthy fats like olive oil, coconut oil, and avocado oil.",
+        "A high-protein diet is important for muscle gain as it provides the essential amino acids needed for muscle repair and growth. Include protein-rich foods like lean meats, poultry, fish, eggs, dairy products, legumes, tofu, and protein supplements in your meals.",
+        "Meal planning is crucial for weight gain to ensure you consume enough calories and nutrients to support muscle growth. Plan meals and snacks that include a balance of protein, carbohydrates, and fats, and aim to eat every 2-3 hours to maintain a consistent calorie intake.",
+        "Tips for increasing calorie intake include eating larger portions at meals, adding calorie-dense foods to meals and snacks, drinking high-calorie beverages like smoothies or shakes, snacking frequently throughout the day, and incorporating healthy fats into your diet."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "high_calorie_foods",
+      "patterns": [
+        "High-calorie foods",
+        "Foods high in calories",
+        "Calorie-dense foods",
+        "High-calorie fruits",
+        "High-calorie vegetables",
+        "High-calorie seafood",
+        "High-calorie non-vegetarian items"
+      ],
+      "responses": [
+        "High-calorie foods are those that provide a significant amount of energy per serving. These foods are often dense in calories, meaning they pack a lot of energy into a small volume. Examples include nuts, seeds, nut butters, avocados, dried fruits, whole milk, cheese, yogurt, fatty fish like salmon and mackerel, lean meats like beef and pork, and oils like olive oil and coconut oil. Including high-calorie foods in your diet can help you meet your energy needs and support weight gain or maintenance goals.",
+        "Fruits high in calories are typically those that contain natural sugars and carbohydrates, providing energy along with essential vitamins, minerals, and fiber. Some examples of high-calorie fruits include bananas, mangoes, grapes, cherries, figs, and dates. These fruits are not only delicious but also provide a quick source of energy and important nutrients. Incorporating high-calorie fruits into your diet can be beneficial for individuals looking to increase their calorie intake or fuel their active lifestyles.",
+        "Vegetables high in calories are often starchy or contain healthy fats, providing a good source of energy along with essential nutrients. Examples include potatoes, sweet potatoes, yams, and corn, as well as avocados and olives. While these vegetables are higher in calories compared to others, they still offer valuable vitamins, minerals, and antioxidants. Including high-calorie vegetables in your meals can help you add variety to your diet and ensure you get a diverse range of nutrients to support overall health and wellbeing.",
+        "High-calorie seafood options include fatty fish like salmon, mackerel, trout, and sardines, which are rich in omega-3 fatty acids and provide a good source of energy. Other high-calorie seafood options include shrimp, crab, lobster, and scallops. Seafood is not only delicious but also provides essential nutrients like protein, vitamins, and minerals. Including high-calorie seafood in your diet can help you meet your protein and energy needs while enjoying flavorful and nutritious meals.",
+        "Non-vegetarian items high in calories include lean meats like beef, pork, lamb, and poultry, as well as processed meats like bacon, sausage, and deli meats. These foods are rich in protein and provide essential nutrients for muscle growth and repair. While they can be higher in calories, they are also valuable sources of nutrients that support overall health and wellbeing. Including high-calorie non-vegetarian items in your diet can help you meet your protein needs and support your active lifestyle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "low_calorie_foods",
+      "patterns": [
+        "Low-calorie foods",
+        "Foods low in calories",
+        "Low-calorie fruits",
+        "Low-calorie vegetables",
+        "Low-calorie seafood",
+        "Low-calorie non-vegetarian items"
+      ],
+      "responses": [
+        "Low-calorie foods are those that provide a small amount of energy per serving, making them ideal for weight management and calorie control. These foods are often low in energy density, meaning they contain fewer calories per gram and can help you feel full without consuming too many calories. Examples of low-calorie foods include leafy greens like spinach, kale, and lettuce, which are high in fiber, vitamins, and minerals but low in calories. Incorporating low-calorie foods into your meals can help you feel satisfied while supporting your weight loss or maintenance goals.",
+        "Low-calorie fruits are typically those that are high in water content and fiber, providing volume and nutrients without excess calories. Examples include berries like strawberries, blueberries, raspberries, and blackberries, as well as watermelon, cantaloupe, honeydew melon, and citrus fruits like oranges, lemons, and grapefruits. These fruits are not only delicious but also provide a quick source of energy and important nutrients. Including low-calorie fruits in your diet can help you satisfy your sweet cravings while supporting your overall health and wellbeing.",
+        "Low-calorie vegetables are often non-starchy and high in water content, providing volume and nutrients with minimal calories. Examples include cruciferous vegetables like broccoli, cauliflower, and Brussels sprouts, as well as watery vegetables like cucumber, celery, and zucchini. These vegetables are not only low in calories but also high in fiber, vitamins, and antioxidants. Including low-calorie vegetables in your meals can help you feel full and satisfied while providing valuable nutrients to support your overall health and wellbeing.",
+        "Low-calorie seafood options include lean sources of protein like white fish such as cod, haddock, tilapia, and sole, as well as shellfish like shrimp, crab, lobster, and scallops. These seafood options are low in fat and calories but provide valuable nutrients like protein, vitamins, and minerals. Including low-calorie seafood in your diet can help you meet your protein needs without excess calories, making it a nutritious and delicious addition to your meals.",
+        "Non-vegetarian items low in calories include lean cuts of poultry like chicken breast and turkey breast, as well as lean cuts of beef like sirloin steak and tenderloin. Opting for lean protein sources can help reduce calorie intake while still meeting protein needs for muscle maintenance and repair. These foods are not only nutritious but also versatile and delicious, making them great additions to a balanced diet. Including low-calorie non-vegetarian items in your meals can help you satisfy your hunger while supporting your weight loss or maintenance goals."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nutrients_for_fitness",
+      "patterns": [
+        "Nutrients for gym diet",
+        "Nutrients for fitness",
+        "Essential nutrients for workout",
+        "Protein and calcium-rich foods for fitness",
+        "Benefits of nutrients for exercise",
+        "Nutrient supplements for fitness enthusiasts"
+      ],
+      "responses": [
+        "Nutrients play a crucial role in supporting exercise performance and recovery. Protein is essential for muscle repair and growth, making it a key nutrient for gym-goers and fitness enthusiasts. Lean protein sources like chicken breast, turkey, fish, tofu, beans, lentils, and Greek yogurt provide high-quality protein with minimal fat and calories, supporting muscle development and repair.",
+        "Calcium is vital for bone health and muscle function, making it important for individuals engaging in regular exercise. Calcium-rich foods like dairy products (milk, yogurt, cheese), leafy greens (kale, spinach), and fortified plant-based milk alternatives provide essential calcium to support bone strength and muscle contraction, reducing the risk of fractures and injuries.",
+        "Vitamins are essential micronutrients that support various functions in the body, including energy metabolism, immune function, and tissue repair. Fruits and vegetables are rich sources of vitamins, including vitamin C (citrus fruits, strawberries), vitamin A (carrots, sweet potatoes), vitamin E (nuts, seeds), and B vitamins (whole grains, eggs, lean meats). Including a variety of fruits and vegetables in your diet ensures you get a wide range of vitamins to support overall health and fitness.",
+        "Minerals such as iron, magnesium, and potassium are also important for exercise performance and recovery. Iron-rich foods like spinach, lentils, and lean meats prevent fatigue and support oxygen transport to muscles, while magnesium-rich foods like nuts, seeds, and whole grains regulate muscle and nerve function. Potassium-rich foods like bananas and sweet potatoes help maintain fluid balance and prevent muscle cramps during exercise."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vitamins_for_fitness",
+      "patterns": [
+        "Vitamins for gym diet",
+        "Vitamins for fitness",
+        "Essential vitamins for workout",
+        "Vitamin-rich fruits and vegetables",
+        "Benefits of vitamins for exercise",
+        "Vitamin supplements for fitness enthusiasts"
+      ],
+      "responses": [
+        "Vitamins play a crucial role in supporting exercise performance and recovery. Vitamin C, found in citrus fruits like oranges and strawberries, aids in collagen synthesis for joint health. Vitamin E, found in nuts and seeds, acts as an antioxidant to reduce exercise-induced oxidative stress. Vitamin A, found in carrots and sweet potatoes, supports immune function and vision.",
+        "Vitamin B complex, including B1 (thiamine), B2 (riboflavin), B3 (niacin), B6 (pyridoxine), and B12 (cobalamin), found in whole grains, eggs, lean meats, and dairy products, is essential for energy metabolism, nerve function, and red blood cell production. Including a variety of fruits and vegetables in your diet ensures you get a wide range of vitamins to support overall health and fitness."
+      ],
+      "context_set": ""
+},
+ 
+    {
+        "tag": "terms_and_conditions",
+        "patterns":[
+            "what are the terms and conditions for gym chatbot AI",
+            "what are the terms and conditions",
+            "terms and conditions"
+        ],
+        "responses": [
+            "the gym chatbot is build for the general queries from bodybuilders, house workout persons. If the user has medical related issues or medically unfit they needs to ask advice from there doctors then can use it, sorry to say this we are needs to protect the users, We are works for your health and physical stength perpose"
+        ],
+        "context_set": ""
+    },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great workout.",
+                "See you later! Stay motivated!"
+            ],
+            "context_set": ""
+        }
+    ],
+    "responses": [],
+    "context": []
+}
